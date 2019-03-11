@@ -4,3 +4,10 @@ h1{
   font-family: fantasy;
   margin: 10px 10px 10px 10px;
 }
+
+h2{
+  color: red;
+  font-family: cursive;
+  font-size-adjust: auto;
+  position: sticky;
+}
