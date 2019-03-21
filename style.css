@@ -1,13 +1,10 @@
+body {
+  background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&ved=2ahUKEwjl_7ru_5LhAhUr1eAKHaZ7AzoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.thejakartapost.com%2Flife%2F2019%2F02%2F27%2Fplastic-found-in-deepest-ocean-animals.html&psig=AOvVaw3QiMFSIVwmpmvdtpH4fV17&ust=1553249616371646")
+}
+
 h1{
   color:pink;
   font-size: 100px;
   font-family: fantasy;
   margin: 10px 10px 10px 10px;
-}
-
-h2{
-  color: red;
-  font-family: cursive;
-  font-size-adjust: auto;
-  position: sticky;
 }
