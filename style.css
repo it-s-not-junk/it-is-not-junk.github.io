@@ -18,15 +18,24 @@ h1.title{
   font-family: abel;
   color: white;
   text-align: center;
+  padding-left: 235px;
+  padding-top: 50px;
   font-size: 100px;
-  top: 70%
-  width: 30%
 }
 
 p.paragraph{
   color: #c9e8d5;
   text-align: center;
   top: 10%;
+}
+
+.socialtext {
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 175px;
+
 }
 
 .hoverover:hover {
@@ -45,7 +54,7 @@ p.paragraph{
 .socialmedia-icon {
   width: 150px;
   height: 150px;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: 100px;
 }
 .socialmedia:hover .socialmedia-icon {
