@@ -14,7 +14,7 @@ h1.title{
   top: 70%
   width: 30%
 }
-h1.socialtitle {
+.socialtitle {
   font-family: abel;
   color: white;
   text-align: center;
