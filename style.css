@@ -14,6 +14,14 @@ h1.title{
   top: 70%
   width: 30%
 }
+h1.socialtitle {
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  top: 70%
+  width: 30%
+}
 
 p.paragraph{
   color: #c9e8d5;
