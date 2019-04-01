@@ -1,7 +1,5 @@
 body {
-  background-image: url("iceberg bags.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #07c450;
 }
 
 .main{
@@ -9,7 +7,7 @@ body {
 }
 
 h1.title{
-  color: darkblue;
+  color: white;
   text-align: center;
   font-size: 100px;
   top: 70%
@@ -17,9 +15,9 @@ h1.title{
 }
 
 p.paragraph{
-  color: #b8f9e4;
+  color: #c9e8d5;
   text-align: center;
-  font-size: 120%;
+  top: 10%;
 }
 .socialmedia {
   width: 150px;
