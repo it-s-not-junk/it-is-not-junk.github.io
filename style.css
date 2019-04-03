@@ -6,7 +6,19 @@ body {
 .main{
   font-family: abel;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
 h1.title{
   color: white;
   text-align: center;
@@ -106,10 +118,13 @@ p.paragraph{
   list-style-type: none;
 }
 .li1 {
+  color: white;
   display: inline;
   margin-left: 170px;
   padding: 70px;
-
+}
+.li1:link {
+  color: white;
 }
 .li2 {
   display: inline;
@@ -122,4 +137,8 @@ p.paragraph{
 .li4 {
   display: inline;
   padding: 70px;
+}
+.bar {
+  background: #38e0c9;
+  padding: 1px;
 }
