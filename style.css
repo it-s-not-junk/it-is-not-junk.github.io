@@ -49,7 +49,7 @@ p.paragraph{
        line-height: 0;
        clear: both;
        border: none;
-       border-top: 1px solid #aaaaaa;
+       border-top: 5px solid #ffffff;
        border-bottom: 1px solid #ffffff;
 }
 
@@ -71,8 +71,31 @@ p.paragraph{
   height: 170px;
   margin-top: 92px;
   margin-left: 100px;
+
 }
 .socialmedia:hover .socialmedia-icon {
   opacity: 0.2;
 
+}
+.fbtext{
+  font-family: abel;
+  font-size: 20px;
+  color: white;
+  padding-left: 100px;
+  padding-top: 10px;
+
+}
+.instatext {
+  font-family: abel;
+  font-size: 20px;
+  color: white;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+.twittertext{
+  font-family: abel;
+  font-size: 20px;
+  color: white;
+  padding-left: 120px;
+  padding-top: 10px;
 }
