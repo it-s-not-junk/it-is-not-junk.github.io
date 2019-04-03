@@ -100,19 +100,26 @@ p.paragraph{
   padding-top: 10px;
 }
 .navbar {
+  font-size: 30px;
   font-family: Abel;
   color: white;
   list-style-type: none;
 }
 .li1 {
   display: inline;
+  margin-left: 170px;
+  padding: 70px;
+
 }
 .li2 {
   display: inline;
+  padding: 70px;
 }
 .li3 {
   display: inline;
+  padding: 70px;
 }
 .li4 {
   display: inline;
+  padding: 70px;
 }
