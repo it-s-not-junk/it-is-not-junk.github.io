@@ -99,3 +99,20 @@ p.paragraph{
   padding-left: 120px;
   padding-top: 10px;
 }
+.navbar {
+  font-family: Abel;
+  color: white;
+  list-style-type: none;
+}
+.li1 {
+  display: inline;
+}
+.li2 {
+  display: inline;
+}
+.li3 {
+  display: inline;
+}
+.li4 {
+  display: inline;
+}
