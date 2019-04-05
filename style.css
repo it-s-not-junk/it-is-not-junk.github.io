@@ -1,24 +1,28 @@
 body {
-
   background-color: #38e0c9;
 }
 
 .main{
   font-family: abel;
 }
+
 a {
   color: white;
   text-decoration: none;
 }
+
 a:link {
   color: white;
 }
+
 a:visited {
   color: white;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 h1.title{
   color: white;
   text-align: center;
@@ -26,6 +30,7 @@ h1.title{
   top: 70%
   width: 30%
 }
+
 .socialtitle {
   font-family: abel;
   color: white;
@@ -78,17 +83,18 @@ p.paragraph{
     top: 10%;
     size: 60%;
 }
+
 .socialmedia-icon {
   width: 170px;
   height: 170px;
   margin-top: 92px;
   margin-left: 100px;
-
 }
+
 .socialmedia:hover .socialmedia-icon {
   opacity: 0.2;
-
 }
+
 .fbtext{
   font-family: abel;
   font-size: 20px;
@@ -96,8 +102,8 @@ p.paragraph{
   padding-left: 100px;
   padding-top: 10px;
   text-decoration: none;
-
 }
+
 .instatext {
   font-family: abel;
   font-size: 20px;
@@ -105,6 +111,7 @@ p.paragraph{
   padding-left: 120px;
   padding-top: 10px;
 }
+
 .twittertext{
   font-family: abel;
   font-size: 20px;
@@ -112,33 +119,40 @@ p.paragraph{
   padding-left: 120px;
   padding-top: 10px;
 }
+
 .navbar {
   font-size: 30px;
   font-family: Abel;
   color: white;
   list-style-type: none;
 }
+
 .li1 {
   color: white;
   display: inline;
   margin-left: 170px;
   padding: 70px;
 }
+
 .li1:link {
   color: white;
 }
+
 .li2 {
   display: inline;
   padding: 70px;
 }
+
 .li3 {
   display: inline;
   padding: 70px;
 }
+
 .li4 {
   display: inline;
   padding: 70px;
 }
+
 .bar {
   background: #38e0c9;
   padding: 1px;
