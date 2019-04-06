@@ -1,0 +1,19 @@
+body {
+  font-family: abel
+  font-size: 20px;
+  background-color: #38e0c9;
+}
+
+#container {
+  margin : 20px;
+  background-color: white;
+  height: 300px;
+  width : 700px;
+  position: relative;
+}
+
+#start{
+    text-align: center;
+    cursor: wait;
+    position: absolute;
+}
