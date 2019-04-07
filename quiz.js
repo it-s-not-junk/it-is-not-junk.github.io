@@ -1,3 +1,4 @@
+// slect elements from html file
 const start = document.getElementById ("start")
 const quiz = document.getElementById("quiz")
 const question = document.getElementById("question")
@@ -33,18 +34,28 @@ let questions = [
   }
 ]
 
-let runningQuestion = 0;
+// Program to render questions
+let lastQuestionIndex = questions.lenght - 1;
+let runningQuestionIndex = 0;
 
 function renderQuestion(){
-  let q = questions[runningQuestion];
-
+  let q = questions[runningQuestionIndex];
   question.innerHTML = "<p>"+ q.question +"</p>";
-  qImg.innerHTML = "<img src:"+ q.imgSrc +"/>";
+  qImg.innerHTML = "<img src="+ q.imgSrc +"/>";
   choiceA.innerHTML = q.choiceA;
   choiceB.innerHTML = q.choiceB;
   choiceC.innerHTML = q.choiceC;
 }
 
+//Program to continue question
+function continueQuestion(){
+  if(runningQuestionIndex < lastQuestionIndex){
+    runningQuestionIndex++;
+    renderQuestion;
+  }
+}
+
+// program to make the quiz start
 start.addEventListener ("click", startQuiz)
 function startQuiz() {
   start.style.display = "none";
