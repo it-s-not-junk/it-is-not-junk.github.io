@@ -40,7 +40,7 @@ a:hover {
 .socialtitle {
 
   font-family: Abel;
-  color: white;
+  color: grey;
   text-align: center;
   padding-left: 262px;
   padding-top: 10px;
@@ -58,7 +58,7 @@ p.paragraph{
 .socialtext {
   background-color:
   font-family: abel;
-  color: white;
+  color: grey;
   text-align: center;
   font-size: 35px;
   padding-left: 78px;
@@ -94,7 +94,7 @@ p.paragraph{
 .fbtext{
   font-family: abel;
   font-size: 20px;
-  color: white;
+  color: grey;
   padding-left: 100px;
   padding-top: 10px;
   text-decoration: none;
@@ -103,7 +103,7 @@ p.paragraph{
 .instatext {
   font-family: abel;
   font-size: 20px;
-  color: white;
+  color: grey;
   padding-left: 120px;
   padding-top: 10px;
 }
@@ -111,7 +111,7 @@ p.paragraph{
 .twittertext{
   font-family: abel;
   font-size: 20px;
-  color: white;
+  color: grey;
   padding-left: 120px;
   padding-top: 10px;
 }
@@ -127,7 +127,7 @@ p.paragraph{
   font-size: 30px;
   color: #38e0c9;
   display: inline;
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 .li2 {
