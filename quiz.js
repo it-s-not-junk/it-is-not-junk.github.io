@@ -1,10 +1,11 @@
 const start = document.getElementById ("start")
+const quiz = document.getElementById('quiz')
 
+start.addEventListener ("click", startQuiz)
 function startQuiz(){
-  start.style.display = "none"
-  quiz.style.display = "block"
+  start.style.display = "none";
+  quiz.style.display = "block";
 }
-start.addEventListener ("click")
 
 let question = [
   {
