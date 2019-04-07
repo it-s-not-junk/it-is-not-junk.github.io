@@ -48,7 +48,7 @@ a:hover {
 }
 
 p.paragraph{
-  color: #38e0c9;
+  color: white;
   text-align: justify;
   font-size: 25px;
   padding-left: 10%;
@@ -94,7 +94,7 @@ p.paragraph{
 .fbtext{
   font-family: abel;
   font-size: 20px;
-  color: grey;
+  color: white;
   padding-left: 100px;
   padding-top: 10px;
   text-decoration: none;
@@ -103,7 +103,7 @@ p.paragraph{
 .instatext {
   font-family: abel;
   font-size: 20px;
-  color: grey;
+  color: white;
   padding-left: 120px;
   padding-top: 10px;
 }
@@ -111,7 +111,7 @@ p.paragraph{
 .twittertext{
   font-family: abel;
   font-size: 20px;
-  color: grey;
+  color: white;
   padding-left: 120px;
   padding-top: 10px;
 }
