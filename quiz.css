@@ -31,3 +31,73 @@ body {
 b:hover{
   text-decoration: underline;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: inline flex;
+  list-style-type: none;
+}
+
+.li1 {
+  float: left;
+  font-family: abel;
+  font-size: 30px;
+  color: white;
+  display: inline;
+  margin-left: 200px;
+}
+
+.li2 {
+  float: left;
+  font-family: abel;
+  font-size: 30px;
+  color: white;
+  display: inline;
+  padding-left: 70px;
+}
+
+.li3 {
+  float: left;
+  font-family: abel;
+  font-size: 30px;
+  color: white;
+  display: inline;
+  padding-left: 70px;
+}
+.li4 {
+  float: left;
+  font-family: abel;
+  font-size: 30px;
+  color: white;
+  display: inline;
+  padding-left:70px;
+}
+
+.li5 {
+  font-family: abel;
+  font-size: 30px;
+  color: white;
+  display: inline;
+  padding-left:70px;
+}
+
+.bar {
+  background: #38e0c9;
+  padding: 1px;
+  height: 70px;
+}
