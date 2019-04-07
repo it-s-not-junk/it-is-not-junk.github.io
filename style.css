@@ -1,16 +1,13 @@
-body {
+.body {
   background-color: #38e0c9;
 }
-
 .main{
   font-family: abel;
 }
-
 a {
   color: white;
   text-decoration: none;
 }
-
 a:link {
   color: white;
 }
@@ -32,7 +29,8 @@ h1.title{
 }
 
 .socialtitle {
-  font-family: abel;
+
+  font-family: Abel;
   color: white;
   text-align: center;
   padding-left: 262px;
@@ -41,12 +39,13 @@ h1.title{
 }
 
 p.paragraph{
-  color: #c9e8d5;
+  color: white;
   text-align: center;
   top: 10%;
 }
 
 .socialtext {
+  background-color:
   font-family: abel;
   color: white;
   text-align: center;
