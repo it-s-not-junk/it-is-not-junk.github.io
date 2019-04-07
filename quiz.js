@@ -6,7 +6,8 @@ const choices = document.getElementById('choiches')
 const choiceA = document.getElementById('A')
 const choiceB = document.getElementById('B')
 const choiceC = document.getElementById('C')
-const scorecontainer = document.getElementById('scorecontainer')
+
+let runningQuestion = 0;
 
 start.addEventListener ("click", startQuiz)
 function startQuiz() {
@@ -16,16 +17,14 @@ function startQuiz() {
 }
 
 function renderQuestion(){
+  let q = questions[runningQuestion];
+
   question.innerHTML = "<p>"+ q.question +"</p>";
-  qImg.innerHTML = "<img src:"+ q.imgSrc+">";
-  choicheA.innerHTML = q.choiceA;
-  choicheB.innerHTML = q.choiceB;
-  choicheC.innerHTML = q.choiceC;
 }
 
 let questions = [
   {question: "How much plastic is trown in the ocean each year?"
-  // qImg: "plasicwave.png"
+  qImg: "plasicwave.png"
   choiceA: "8 million metric tons"
   choiceB: "2 million metric tons"
   choicheC: "none, we went plastic free"
