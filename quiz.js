@@ -12,7 +12,7 @@ const choiceC = document.getElementById("C")
 let questions = [
   {
     question: "How much plastic is trown in the ocean each year?",
-    imgSrc : "plasicwave.png",
+    imgSrc : "https://i2.wp.com/statementsstore.com/wp-content/uploads/2018/09/plasticwave-signed.jpg?fit=500%2C500&ssl=1",
     choiceA : "8 million metric tons",
     choiceB : "2 million metric tons",
     choiceC : "none, we went plastic free",
@@ -35,11 +35,12 @@ let questions = [
 ]
 
 // Program to render questions
-let lastQuestionIndex = questions.lenght - 1;
-let runningQuestionIndex = 0;
+const lastQuestion = questions.length - 1;
+let runningQuestion = 0;
+let count = 0;
 
 function renderQuestion(){
-  let q = questions[runningQuestionIndex];
+  let q = questions[runningQuestion];
   question.innerHTML = "<p>"+ q.question +"</p>";
   qImg.innerHTML = "<img src="+ q.imgSrc +"/>";
   choiceA.innerHTML = q.choiceA;
@@ -47,12 +48,11 @@ function renderQuestion(){
   choiceC.innerHTML = q.choiceC;
 }
 
-//Program to continue question
-function continueQuestion(){
-  if(runningQuestionIndex < lastQuestionIndex){
-    runningQuestionIndex++;
-    renderQuestion;
-  }
+// render progress
+function renderProgress(){
+    for(let qIndex = 0; qIndex <= lastQuestion; qIndex++){
+        progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
+    }
 }
 
 // program to make the quiz start
@@ -61,4 +61,5 @@ function startQuiz() {
   start.style.display = "none";
   renderQuestion()
   quiz.style.display = "block";
+  renderProgress()
 }
