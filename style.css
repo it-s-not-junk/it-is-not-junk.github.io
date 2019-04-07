@@ -121,7 +121,7 @@ p.paragraph{
 }
 
 .navbar {
-  display: inline flex;
+  display: inline-flex;
   list-style-type: none;
 }
 
@@ -131,7 +131,7 @@ p.paragraph{
   font-size: 30px;
   color: white;
   display: inline;
-  margin-left: 270px;
+  margin-left: 200px;
 }
 
 .li2 {
@@ -152,6 +152,13 @@ p.paragraph{
   padding-left: 70px;
 }
 .li4 {
+  font-family: abel;
+  font-size: 30px;
+  color: white;
+  display: inline;
+  padding-left:70px;
+}
+.li5 {
   font-family: abel;
   font-size: 30px;
   color: white;
