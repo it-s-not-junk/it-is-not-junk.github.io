@@ -58,7 +58,7 @@ a:hover {
   color: white;
   text-align: center;
   padding-left: 262px;
-  padding-top: 10px;
+  padding-top: 100px;
   font-size: 100px;
 }
 
@@ -71,8 +71,7 @@ p.paragraph{
 }
 
 .socialtext {
-  background-color:
-  font-family: abel;
+  font-family: Abel;
   color: white;
   text-align: center;
   font-size: 35px;

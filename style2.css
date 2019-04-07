@@ -7,14 +7,6 @@ body {
   color: white;
 }
 
-p.paragraph{
-  color: white;
-  text-align: justify;
-  font-size: 25px;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 a {
   color: white;
   text-decoration: none;
