@@ -1,10 +1,4 @@
 
-//TEST
-// $( ".hoverover" ).hover(function() {
-//   $( ".garbage" ).toggle( "slow", function() {
-//     // Animation complete.
-//   });
-// });
 const title = document.getElementById ("title")
 const garbage = document.getElementById("garbage")
 

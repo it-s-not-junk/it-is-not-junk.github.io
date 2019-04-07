@@ -7,24 +7,25 @@ body {
 }
 
 a {
-  color: white;
+  color: lightgray;
   text-decoration: none;
 }
 
 a:link {
-  color: white;
+  color: lightgray;
 }
 
 a:visited {
-  color: white;
+  color: lightgray;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #38e0c9;
 }
 
 #title{
-  color: white;
+  color: #38e0c9;
   text-align: center;
   font-size: 130px;
   top: 70%;
@@ -49,7 +50,7 @@ a:hover {
 }
 
 p.paragraph{
-  color: white;
+  color: #38e0c9;
   text-align: justify;
   font-size: 25px;
   padding-left: 10%;
@@ -79,21 +80,6 @@ p.paragraph{
        border-top: 5px solid #ffffff;
        border-bottom: 1px solid #ffffff;
 }
-
-/* TEST
- .hoverover:hover {
-    position: relative;
-}
-
-.hoverover:hover:after {
-    content: url("garbagepile.png");
-    display: block;
-    position: absolute;
-    right: 8%;
-    left: 8%;
-    top: 10%;
-    size: 60%;
-} */
 
 .socialmedia-icon {
   width: 170px;
@@ -140,16 +126,16 @@ p.paragraph{
   float: left;
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 .li2 {
   float: left;
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left: 70px;
 }
@@ -158,27 +144,27 @@ p.paragraph{
   float: left;
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left: 70px;
 }
 .li4 {
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left:70px;
 }
 .li5 {
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left:70px;
 }
 
 .bar {
-  background: #38e0c9;
+  background: white;
   padding: 1px;
   height: 70px;
 }
