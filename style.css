@@ -176,7 +176,7 @@ p.paragraph{
   font-family: abel;
   color: white;
   text-align: center;
-  padding -left: 262px;
+  padding-left: 15px;
   padding-top: 50px;
   font-size: 100px;
 }
@@ -184,13 +184,13 @@ p.paragraph{
 .producttext {
   font-family: abel;
   color: white;
-  text-align: right;
-  font-size: 70px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .producttext2 {
   font-family: abel;
   color: white;
-  text-align: right;
+  text-align: center;
   font-size: 30px;
 }

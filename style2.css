@@ -23,7 +23,7 @@ h1.title{
   font-family: abel;
   color: white;
   text-align: center;
-  padding -left: 262px;
+  padding-left: 150px;
   padding-top: 50px;
   font-size: 100px;
 }
@@ -38,7 +38,7 @@ h1.title{
 .producttext2 {
   font-family: abel;
   color: white;
-  text-align: right;
+  text-align: center;
   font-size: 30px;
 }
 
