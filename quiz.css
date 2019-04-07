@@ -80,12 +80,14 @@ a:hover {
   padding-left: 70px;
 }
 .li4 {
+  float: left;
   font-family: abel;
   font-size: 30px;
   color: white;
   display: inline;
   padding-left:70px;
 }
+
 .li5 {
   font-family: abel;
   font-size: 30px;
