@@ -70,7 +70,8 @@ p.paragraph{
        border-bottom: 1px solid #ffffff;
 }
 
-.hoverover:hover {
+/* TEST
+ .hoverover:hover {
     position: relative;
 }
 
@@ -82,7 +83,7 @@ p.paragraph{
     left: 8%;
     top: 10%;
     size: 60%;
-}
+} */
 
 .socialmedia-icon {
   width: 170px;
