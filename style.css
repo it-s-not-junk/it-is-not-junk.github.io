@@ -5,27 +5,36 @@
   font-family: abel;
 }
 a {
-  color: white;
+  color: lightgray;
   text-decoration: none;
 }
 a:link {
-  color: white;
+  color: lightgray;
 }
 
 a:visited {
-  color: white;
+  color: lightgray;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #38e0c9;
 }
 
-h1.title{
-  color: white;
+#title{
+  color: #38e0c9;
   text-align: center;
-  font-size: 100px;
-  top: 70%
-  width: 30%
+  font-size: 130px;
+  top: 70%;
+  margin-top: 5%;
+}
+
+#garbage img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 .socialtitle {
@@ -39,9 +48,11 @@ h1.title{
 }
 
 p.paragraph{
-  color: white;
-  text-align: center;
-  top: 10%;
+  color: #38e0c9;
+  text-align: justify;
+  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .socialtext {
@@ -68,21 +79,6 @@ p.paragraph{
        border-top: 5px solid #ffffff;
        border-bottom: 1px solid #ffffff;
 }
-
-/* TEST
- .hoverover:hover {
-    position: relative;
-}
-
-.hoverover:hover:after {
-    content: url("garbagepile.png");
-    display: block;
-    position: absolute;
-    right: 8%;
-    left: 8%;
-    top: 10%;
-    size: 60%;
-} */
 
 .socialmedia-icon {
   width: 170px;
@@ -129,16 +125,16 @@ p.paragraph{
   float: left;
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 .li2 {
   float: left;
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left: 70px;
 }
@@ -147,27 +143,27 @@ p.paragraph{
   float: left;
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left: 70px;
 }
 .li4 {
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left:70px;
 }
 .li5 {
   font-family: abel;
   font-size: 30px;
-  color: white;
+  color: #38e0c9;
   display: inline;
   padding-left:70px;
 }
 
 .bar {
-  background: #38e0c9;
+  background: white;
   padding: 1px;
   height: 70px;
 }
