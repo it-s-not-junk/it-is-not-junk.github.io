@@ -164,3 +164,26 @@ p.paragraph{
   padding: 1px;
   height: 70px;
 }
+
+.productstitle {
+  font-family: abel;
+  color: white;
+  text-align: center;
+  padding -left: 262px;
+  padding-top: 50px;
+  font-size: 100px;
+}
+
+.producttext {
+  font-family: abel;
+  color: white;
+  text-align: right;
+  font-size: 70px;
+}
+
+.producttext2 {
+  font-family: abel;
+  color: white;
+  text-align: right;
+  font-size: 30px;
+}
