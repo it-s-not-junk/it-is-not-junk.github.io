@@ -14,21 +14,21 @@ let questions = [
     imgSrc : "plasicwave.png",
     choiceA : "8 million metric tons",
     choiceB : "2 million metric tons",
-    choicheC : "none, we went plastic free",
+    choiceC : "none, we went plastic free",
     correct : "A"
   },{
     question: "How much trash could be given new life?",
     imgSrc : "recycling.png",
     choiceA : "about 60%",
     choiceB : "about 80%",
-    choicheC : "about 15%",
+    choiceC : "about 15%",
     correct : "B"
   },{
     question : "Which contries use more plastic bottles?",
     imgSrc : "plastic bottles.png",
     choiceA : "Italy, Germany and France",
     choiceB : "Indonesia, Brazil and Thailand",
-    choicheC : "USA, China and Mexico",
+    choiceC : "USA, China and Mexico",
     correct : "C"
   }
 ]
@@ -39,10 +39,10 @@ function renderQuestion(){
   let q = questions[runningQuestion];
 
   question.innerHTML = "<p>"+ q.question +"</p>";
-  qImg.innerHTML = "<img src:"+ q.imgSrc +"/>"
-  choicheA.innerHTML = q.choicheA
-  choicheB.innerHTML = q.choicheB
-  choicheC.innerHTML = q.choicheC
+  qImg.innerHTML = "<img src:"+ q.imgSrc +"/>";
+  choiceA.innerHTML = q.choiceA;
+  choiceB.innerHTML = q.choiceB;
+  choiceC.innerHTML = q.choiceC;
 }
 
 start.addEventListener ("click", startQuiz)
