@@ -28,6 +28,15 @@ body {
   color: #38e0c9;
 }
 
+#question{
+  font-size: 25px;
+  font-family: Abel;
+  color: lightgray;
+  padding-left: 200px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
 #choiches{
   width: 200px;
   position: absolute;
