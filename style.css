@@ -40,8 +40,17 @@ a:hover {
   margin-top: 5%;
 }
 
+#text{
+  margin-top: 60px;
+}
+
 .paragraphmain {
-  color: #ffff;
+  color: white;
+  text-align: justify;
+  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0;
 }
 
 .socialtitle {
