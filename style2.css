@@ -28,13 +28,6 @@ h1.title{
   padding-top: 18px;
 }
 
-.producttext2 {
-  font-family: abel;
-  color: white;
-  text-align: center;
-  font-size: 30px;
-}
-
 #textimg1{
   font-family: abel;
   color: white;
@@ -107,29 +100,3 @@ h1.title{
     width: 100%;
   }
 }
-
-
-/* Responsive facts page */
-/* .img1wrap{
-  position: relative;
-  height: 200px;
-  width: 300px;
-}
-
-.image1wrap:hover #textimg1{
-  visibility: visible;
-  opacity: 1;
-}
-
-#textimg1{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: white;
-  color: #38e0c9;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
-} */
