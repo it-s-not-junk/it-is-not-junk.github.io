@@ -133,6 +133,7 @@ p.paragraph{
 }
 
 .navbar {
+  align: center;
   display: inline-flex;
   list-style-type: none;
 }
