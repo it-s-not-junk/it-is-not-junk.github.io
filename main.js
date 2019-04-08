@@ -8,7 +8,7 @@ function showGarbage() {
   garbage.style.display = "block"
 }
 
-garbage.addEventListener ("click", hideGarbage)
+garbage.addEventListener ("mouseout", hideGarbage)
 function hideGarbage() {
   title.style.display = "block"
   garbage.style.display = "none"
