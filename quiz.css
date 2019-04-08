@@ -123,6 +123,7 @@ a:hover {
 }
 
 .navbar {
+  background-color: white;
   display: inline flex;
   list-style-type: none;
 }
