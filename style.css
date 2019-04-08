@@ -98,7 +98,7 @@ p.paragraph{
   width: 170px;
   height: 170px;
   margin-top: 60px;
-  margin-left: 100px;
+  margin-left: 145px;
 }
 
 .socialmedia:hover .socialmedia-icon {
@@ -109,8 +109,8 @@ p.paragraph{
   font-family: abel;
   font-size: 20px;
   color: white;
-  padding-left: 100px;
-  padding-top: 10px;
+  padding-left: 143px;
+  padding-top: 5px;
   text-decoration: none;
 }
 
@@ -118,16 +118,16 @@ p.paragraph{
   font-family: abel;
   font-size: 20px;
   color: white;
-  padding-left: 120px;
-  padding-top: 10px;
+  padding-left: 175px;
+  padding-top: 5px;
 }
 
 .twittertext{
   font-family: abel;
   font-size: 20px;
   color: white;
-  padding-left: 120px;
-  padding-top: 10px;
+  padding-left: 205px;
+  padding-top: 5px;
 }
 
 .navbar {
@@ -141,7 +141,7 @@ p.paragraph{
   font-size: 30px;
   color: #38e0c9;
   display: inline;
-  margin-left: 250px;
+  margin-left: 350px;
 }
 
 .li2 {

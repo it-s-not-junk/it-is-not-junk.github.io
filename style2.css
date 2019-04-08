@@ -91,7 +91,7 @@ h1.title{
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.container:hover.overlay {
   opacity: 1;
 }
 
