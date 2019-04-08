@@ -20,14 +20,14 @@ let questions = [
     correct : "A"
   },{
     question: "How much trash could be given new life?",
-    imgSrc : "recycling.png",
+    imgSrc : "https://cdn.shopify.com/s/files/1/0014/7845/9504/products/RECYCLING-FEE-01_grande.png?v=1539292248",
     choiceA : "about 60%",
     choiceB : "about 80%",
     choiceC : "about 15%",
     correct : "B"
   },{
     question : "Which contries use more plastic bottles?",
-    imgSrc : "plastic bottles.png",
+    imgSrc : "http://divemagazine.co.uk/images/article-images/eco/Plastic_Pollution/plastic_eating_enzyme/plastic_enzyme_600.jpg",
     choiceA : "Italy, Germany and France",
     choiceB : "Indonesia, Brazil and Thailand",
     choiceC : "USA, China and Mexico",
