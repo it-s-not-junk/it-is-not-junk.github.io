@@ -7,6 +7,7 @@ const choices = document.getElementById("choiches")
 const choiceA = document.getElementById("A")
 const choiceB = document.getElementById("B")
 const choiceC = document.getElementById("C")
+const finishQuiz = document.getElementById("finishQuiz")
 
 // array with questions that will be displayed
 let questions = [
@@ -40,7 +41,7 @@ let runningQuestion = 0;
 let count = 0;
 let score = 0;
 
-//render questions
+//render question one
 function renderQuestion(){
   let q = questions[runningQuestion];
   question.innerHTML = "<p>"+ q.question +"</p>";
@@ -50,12 +51,42 @@ function renderQuestion(){
   choiceC.innerHTML = q.choiceC;
 }
 
-// render progress
-function renderProgress(){
-    for(let qIndex = 0; qIndex <= lastQuestion; qIndex++){
-        progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
-    }
+//render question two
+choiceA.addEventListener("click", renerQuestion2)
+function renerQuestion2(){
+  let q = questions[runningQuestion++];
+  question.innerHTML = "<p>"+ q.question +"</p>";
+  qImg.innerHTML = "<img src="+ q.imgSrc +"/>";
+  choiceA.innerHTML = q.choiceA;
+  choiceB.innerHTML = q.choiceB;
+  choiceC.innerHTML = q.choiceC;
 }
+
+//render question three
+choiceB.addEventListener("click", renderQuestion3)
+function renderQuestion3(){
+  let q = questions[runningQuestion++];
+  question.innerHTML = "<p>"+ q.question +"</p>";
+  qImg.innerHTML = "<img src="+ q.imgSrc +"/>";
+  choiceA.innerHTML = q.choiceA;
+  choiceB.innerHTML = q.choiceB;
+  choiceC.innerHTML = q.choiceC;
+}
+
+//show finishQuiz
+choiceC.addEventListener("click", showFinishQuiz)
+function showFinishQuiz(){
+  finishQuiz.style.display = "block";
+  quiz.style.display = "none";
+}
+
+//Show finishquiz
+// render progress
+// function renderProgress(){
+//     for(let qIndex = 0; qIndex <= lastQuestion; qIndex++){
+//         progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
+//     }
+// }
 
 // program to make the quiz start
 start.addEventListener ("click", startQuiz)
@@ -64,5 +95,5 @@ function startQuiz() {
   start.style.display = "none";
   renderQuestion()
   quiz.style.display = "block";
-  renderProgress()
+  // renderProgress()
 }
