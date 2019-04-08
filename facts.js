@@ -12,37 +12,37 @@ const img4 = document.getElementById ("img4")
 const img5 = document.getElementById ("img5")
 const img6 = document.getElementById ("img6")
 
-img1.addEventListener ("mouseover", showTextImg1)
+img1.addEventListener ("click", showTextImg1)
 function showTextImg1() {
   textImg1.style.display = "block"
   img1.style.display = "none"
 }
 
-img2.addEventListener ("mouseover", showTextImg2)
+img2.addEventListener ("click", showTextImg2)
 function showTextImg2() {
   textImg2.style.display = "block"
   img2.style.display = "none"
 }
 
-img3.addEventListener ("mouseover", showTextImg3)
+img3.addEventListener ("click", showTextImg3)
 function showTextImg3() {
   textImg3.style.display = "block"
   img3.style.display = "none"
 }
 
-img4.addEventListener ("mouseover", showTextImg4)
+img4.addEventListener ("click", showTextImg4)
 function showTextImg4() {
   textImg4.style.display = "block"
   img4.style.display = "none"
 }
 
-img5.addEventListener ("mouseover", showTextImg5)
+img5.addEventListener ("click", showTextImg5)
 function showTextImg5() {
   textImg5.style.display = "block"
   img5.style.display = "none"
 }
 
-img6.addEventListener ("mouseover", showTextImg6)
+img6.addEventListener ("click", showTextImg6)
 function showTextImg6() {
   textImg6.style.display = "block"
   img6.style.display = "none"
