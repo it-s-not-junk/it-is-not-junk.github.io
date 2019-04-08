@@ -1,4 +1,4 @@
-
+// main page
 const title = document.getElementById ("title")
 const garbage = document.getElementById("garbage")
 
