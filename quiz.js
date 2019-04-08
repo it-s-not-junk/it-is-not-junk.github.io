@@ -12,7 +12,7 @@ const finishQuiz = document.getElementById("finishQuiz")
 // array with questions that will be displayed
 let questions = [
   {
-    question: "How much plastic is trown in the ocean each year?",
+    question: "How much plastic is thrown in the ocean each year?",
     imgSrc : "https://i2.wp.com/statementsstore.com/wp-content/uploads/2018/09/plasticwave-signed.jpg?fit=500%2C500&ssl=1",
     choiceA : "8 million metric tons",
     choiceB : "2 million metric tons",
@@ -26,7 +26,7 @@ let questions = [
     choiceC : "about 15%",
     correct : "B"
   },{
-    question : "Which contries use more plastic bottles?",
+    question : "Which countries use more plastic bottles?",
     imgSrc : "http://divemagazine.co.uk/images/article-images/eco/Plastic_Pollution/plastic_eating_enzyme/plastic_enzyme_600.jpg",
     choiceA : "Italy, Germany and France",
     choiceB : "Indonesia, Brazil and Thailand",
