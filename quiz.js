@@ -34,11 +34,13 @@ let questions = [
   }
 ]
 
-// Program to render questions
+// create useful variables (for score and to render questions)
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
+let score = 0;
 
+//render questions
 function renderQuestion(){
   let q = questions[runningQuestion];
   question.innerHTML = "<p>"+ q.question +"</p>";
@@ -57,6 +59,7 @@ function renderProgress(){
 
 // program to make the quiz start
 start.addEventListener ("click", startQuiz)
+
 function startQuiz() {
   start.style.display = "none";
   renderQuestion()
