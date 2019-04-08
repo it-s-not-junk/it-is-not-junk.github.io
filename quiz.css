@@ -175,6 +175,7 @@ a:hover {
 }
 
 .bar {
+  align-content: center;
   background: white;
   padding: 1px;
   height: 70px;
