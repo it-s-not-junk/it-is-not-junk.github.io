@@ -89,6 +89,18 @@ body {
   border: 2px solid #38e0c9;
 }
 
+/* end of the quiz */
+#finishQuiz{
+  text-align: center;
+  position: absolute;
+  font-size: 30px;
+  font-family: Abel;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  color: lightgray;
+}
+
 /* navigation bar */
 b:hover{
   text-decoration: underline;
