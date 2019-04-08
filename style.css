@@ -133,9 +133,10 @@ p.paragraph{
 }
 
 .navbar {
-  align: center;
-  display: inline-flex;
+  display: flex;
   list-style-type: none;
+  justify-content: center;
+
 }
 
 .li1 {
