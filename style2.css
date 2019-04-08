@@ -20,20 +20,12 @@ h1.title{
   width: 30%
 }
 
-.productstitle {
-  font-family: abel;
-  color: white;
-  text-align: center;
-  padding-left: 150px;
-  padding-top: 50px;
-  font-size: 100px;
-}
-
 .producttext {
   font-family: abel;
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
+  padding-top: 18px;
 }
 
 .producttext2 {
@@ -43,14 +35,59 @@ h1.title{
   font-size: 30px;
 }
 
-{
-  box-sizing: border-box;
+#textimg1{
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
+
+#textimg2{
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#textimg3{
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#textimg4{
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#textimg5{
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#textimg6{
+  font-family: abel;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
 
 .container {
   position: relative;
   width: 100%;
 }
+
 .column {
   float: left;
   width: 33.33%;
