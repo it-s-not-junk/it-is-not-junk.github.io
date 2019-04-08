@@ -178,6 +178,7 @@ p.paragraph{
 }
 
 .bar {
+  align-items: center;
   background: white;
   padding: 1px;
   height: 70px;
