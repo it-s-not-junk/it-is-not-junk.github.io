@@ -23,3 +23,27 @@ function showTextImg2() {
   textImg2.style.display = "block"
   img2.style.display = "none"
 }
+
+img3.addEventListener ("mouseover", showTextImg3)
+function showTextImg3() {
+  textImg3.style.display = "block"
+  img3.style.display = "none"
+}
+
+img4.addEventListener ("mouseover", showTextImg4)
+function showTextImg4() {
+  textImg4.style.display = "block"
+  img4.style.display = "none"
+}
+
+img5.addEventListener ("mouseover", showTextImg5)
+function showTextImg5() {
+  textImg5.style.display = "block"
+  img5.style.display = "none"
+}
+
+img6.addEventListener ("mouseover", showTextImg6)
+function showTextImg6() {
+  textImg6.style.display = "block"
+  img6.style.display = "none"
+}
