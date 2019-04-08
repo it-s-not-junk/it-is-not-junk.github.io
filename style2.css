@@ -72,38 +72,27 @@ h1.title{
 }
 
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+/* Responsive facts page */
+/* .img1wrap{
+  position: relative;
+  height: 200px;
+  width: 300px;
 }
 
-.overlay {
+.image1wrap:hover #textimg1{
+  visibility: visible;
+  opacity: 1;
+}
+
+#textimg1{
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height:auto;
-  width: 33.33px%;
+  background: white;
+  color: #38e0c9;
+  visibility: hidden;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.container:hover.overlay {
-  opacity: 1;
-}
-
-.textimg {
-  font-family: abel;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  transition: opacity .2s, visibility .2s;
+} */
